@@ -12,7 +12,9 @@ function getPINs(observed) {
         9: ['6', '8', '9'],
         0: ['8', '0']
     }
+    
     let arr = observed.split('').map(a => digits[a])
+
     function combinations(arr) {
         if (arr.length == 1) {
             return arr[0]
