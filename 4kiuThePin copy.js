@@ -1,4 +1,3 @@
-var allArrays = [['1', '2', '4'], ['1', '2'], ['3', '6', '9']]
 
 function allPossibleCases(arr) {
     if (arr.length == 1) {
@@ -16,4 +15,5 @@ function allPossibleCases(arr) {
     }
 }
 
+var allArrays = [['1', '2', '4'], ['1', '2'], ['3', '6', '9']]
 console.log(allPossibleCases(allArrays))
