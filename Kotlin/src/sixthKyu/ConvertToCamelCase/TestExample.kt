@@ -1,4 +1,4 @@
-package SixthKyu.ConvertToCamelCase
+package sixthKyu.ConvertToCamelCase
 
 import kotlin.test.assertEquals
 import org.junit.Test

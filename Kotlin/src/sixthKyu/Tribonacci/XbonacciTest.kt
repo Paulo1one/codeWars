@@ -1,4 +1,4 @@
-package SixthKyu.Tribonacci
+package sixthKyu.Tribonacci
 
 import org.junit.Assert.assertArrayEquals
 import org.junit.Test

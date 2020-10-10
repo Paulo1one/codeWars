@@ -1,4 +1,4 @@
-package SixthKyu.ConvertToCamelCase
+package sixthKyu.ConvertToCamelCase
 
 fun toCamelCase(str: String): String {
     var arr = (if (str.contains("-")) str.split("-").toMutableList() else str.split("_")).toMutableList()

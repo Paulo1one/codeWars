@@ -1,4 +1,4 @@
-package SeventhKyu.MaxRot
+package seventhKyu.MaxRot
 
 fun maxRot(n: Long): Long {
     var num = n.toString()

@@ -1,4 +1,4 @@
-package SixthKyu.BouncingBalls
+package sixthKyu.BouncingBalls
 
 import org.junit.Assert.*
 import org.junit.Test

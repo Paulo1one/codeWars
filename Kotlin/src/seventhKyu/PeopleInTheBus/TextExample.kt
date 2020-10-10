@@ -1,4 +1,4 @@
-package SeventhKyu.PeopleInTheBus
+package seventhKyu.PeopleInTheBus
 
 import kotlin.test.assertEquals
 import org.junit.Test

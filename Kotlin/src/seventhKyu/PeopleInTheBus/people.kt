@@ -1,4 +1,4 @@
-package SeventhKyu.PeopleInTheBus
+package seventhKyu.PeopleInTheBus
 
 fun people(busStops: Array<Pair<Int, Int>>): Int {
     var total = 0

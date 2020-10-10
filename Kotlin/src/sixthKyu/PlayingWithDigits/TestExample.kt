@@ -1,4 +1,4 @@
-package SixthKyu.PlayingWithDigits
+package sixthKyu.PlayingWithDigits
 
 import kotlin.test.assertEquals
 import org.junit.Test

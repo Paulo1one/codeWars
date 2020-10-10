@@ -1,4 +1,4 @@
-package SixthKyu.Tribonacci
+package sixthKyu.Tribonacci
 
 fun tribonacci(signature: DoubleArray, n: Int): DoubleArray {
     val a = DoubleArray(n)

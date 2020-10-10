@@ -1,4 +1,4 @@
-package SeventhKyu.MaxRot
+package seventhKyu.MaxRot
 
 import org.junit.Assert.*
 import org.junit.Test

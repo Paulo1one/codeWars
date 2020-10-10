@@ -1,3 +1,3 @@
-package SeventhKyu.SumOfOddNums
+package seventhKyu.SumOfOddNums
 
 fun rowSumOddNumbers(n: Int) = n * n * n
