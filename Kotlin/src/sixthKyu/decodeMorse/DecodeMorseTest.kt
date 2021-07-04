@@ -9,6 +9,6 @@ class DecodeTheMorseTest {
     fun exampleTestCases() {
         assertEquals("HEY JUDE", decodeMorse(".... . -.--   .--- ..- -.. ."))
         assertEquals("SOS", decodeMorse("... --- ..."))
-        assertEquals("SOS! THE QUICK BROWN FOX JUMPS OVER THE LAZY DOG.", decodeMorse(".... . -.--   .--- ..- -.. ."))
+//        assertEquals("SOS! THE QUICK BROWN FOX JUMPS OVER THE LAZY DOG.", fourthKiu.decodeBitsMorse.decodeMorse(".... . -.--   .--- ..- -.. ."))
     }
 }

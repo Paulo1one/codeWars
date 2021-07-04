@@ -19,7 +19,7 @@ https://git-scm.com/download
 * 'git merge' // unir linhas do tempo
 * 'git push' // envia alterações locais para o repositório remoto
 * 'git clone' // clonar um repositório/projeto
-* 'git pull' // puxa do repositório remot*
+* 'git pull' // puxa do repositório remote
 
 ### adicionar tudo:
 git add .
