@@ -2,26 +2,39 @@ package fourthKiu.decodeBitsMorse
 
 object DecodeMorse {
     fun decodeBits(bits: String): String {
-        var double = false
-        if (bits.contains("0110") || bits.contains("1001")) double = true
-        if (bits == "01110" || bits == "111") {
-            return "."
+        var bitsToMorse = ""
+        var i = 0
+        while (i < bits.length) {
+            var j = i
+            if (j + 1 < bits.length) {
+                while (bits[i] == bits[j]) {
+
+                }
+            } else {
+                i++
+            }
         }
-        return if (double) {
-            bits
-                .replace("111", "-")
-                .replace("1", ".")
-                .replace("0000000", "   ")
-                .replace("000", " ")
-                .replace("0", "")
-        } else {
-            bits
-                .replace("111111", "-")
-                .replace("11", ".")
-                .replace("00000000000000", "   ")
-                .replace("000000", " ")
-                .replace("00", "")
-        }
+        return bitsToMorse
+//        var double = false
+//        if (bits.contains("0110") || bits.contains("1001")) double = true
+//        if (bits == "01110" || bits == "111" || bits == "000000011100000") {
+//            return "."
+//        }
+//        return if (double) {
+//            bits
+//                .replace("111", "-")
+//                .replace("1", ".")
+//                .replace("0000000", "   ")
+//                .replace("000", " ")
+//                .replace("0", "")
+//        } else {
+//            bits
+//                .replace("111111", "-")
+//                .replace("11", ".")
+//                .replace("00000000000000", "   ")
+//                .replace("000000", " ")
+//                .replace("00", "")
+//        }
     }
 
     fun decodeMorse(code: String): String {

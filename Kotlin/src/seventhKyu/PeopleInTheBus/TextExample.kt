@@ -1,7 +1,7 @@
 package seventhKyu.PeopleInTheBus
 
 import kotlin.test.assertEquals
-import org.junit.Test
+import org.junit.jupiter.api.Test
 
 class TestExample {
     @Test

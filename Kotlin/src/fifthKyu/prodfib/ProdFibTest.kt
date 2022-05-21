@@ -1,7 +1,6 @@
 package fifthKyu.prodfib
-
-import org.junit.Assert.*
-import org.junit.Test
+import org.testng.annotations.Test
+import org.testng.internal.junit.ArrayAsserts.assertArrayEquals
 
 class ProdFibTest {
     @Test

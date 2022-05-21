@@ -1,7 +1,8 @@
 package seventhKyu.MaxRot
 
-import org.junit.Assert.*
-import org.junit.Test
+import org.junit.jupiter.api.Assertions.assertEquals
+import org.junit.jupiter.api.Test
+
 
 class MaxRotateTest {
     private fun testing(actual:Long, expected:Long) {

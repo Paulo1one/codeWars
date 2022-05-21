@@ -1,7 +1,7 @@
 package fourthKiu.decompose
 
+import org.junit.jupiter.api.Test
 import kotlin.test.assertEquals
-import org.junit.Test
 
 class DecompTest {
     @Test
